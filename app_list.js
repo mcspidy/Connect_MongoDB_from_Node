@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Employee = require('./employee');
 
-const uri =  "mongodb://root:yj7AniYvDw4lIdCpZ70aACGC@172.21.119.69:27017";
+const uri =  "mongodb://root:IJnL49E4up4KxVytqGp0mmbx@172.21.202.208:27017";
 
 mongoose.connect(uri,{'dbName':'employeeDB'});
 
